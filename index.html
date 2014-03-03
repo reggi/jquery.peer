@@ -6,17 +6,17 @@
 
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
     <script type="text/javascript" src="http://cdn.peerjs.com/0.3/peer.js"></script>
-    <script type="text/javascript" src="../jquery.peer.js"></script>
+    <script type="text/javascript" src="./jquery.peer.js"></script>
     <script>
       $(document).ready(function() {
-        $('#peer').peer('media', 'michelle', function() {
+        $('#peer').peer('media', 'veryveryunique', function() {
           this.call('eric');
         });
       });
     </script>
   </head>
-
   <body>
+    <h1>Check the console logs.</h1>
     <div id="peer">
     </div>
   </body>
